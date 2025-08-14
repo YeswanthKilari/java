@@ -1,4 +1,4 @@
-import mysearch.Recursivebs;
+import mysearch.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +17,8 @@ public class Main {
         } else {
             System.out.println("Element not found (recursive)");
         }
+
+        int lowerBound = Lowerb.lowerb(arr, target, arr.length);
+        System.out.println("Lower bound of " + target + " is: " + lowerBound);
     }
 }
