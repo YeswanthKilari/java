@@ -20,5 +20,8 @@ public class Main {
 
         int lowerBound = Lowerb.lowerb(arr, target, arr.length);
         System.out.println("Lower bound of " + target + " is: " + lowerBound);
+
+        int upperBound = Upperb.Upperb(arr, target, arr.length);
+        System.out.println("Upper bound of " + target + " is: " + upperBound);
     }
 }
